@@ -5,6 +5,9 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import dev.tankpillow.cosmicraft.block.ModBlocks;
+import dev.tankpillow.cosmicraft.itemgroup.ModItemGroup;
+
 public class Cosmicraft implements ModInitializer 
 {
 	
@@ -14,6 +17,7 @@ public class Cosmicraft implements ModInitializer
 	@Override
 	public void onInitialize() 
 	{
-		LOGGER.info("Hello Fabric world!");
+		ModBlocks.register();
+		ModItemGroup.register();
 	}
 }
