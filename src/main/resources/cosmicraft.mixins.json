@@ -3,7 +3,7 @@
 	"package": "dev.tankpillow.cosmicraft.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"client.PlayerCapeMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
